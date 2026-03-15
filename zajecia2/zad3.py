@@ -25,8 +25,8 @@ bigger_than_average = 0
 
 sorted_numbers = sorted(random_numbers)
 print("Smallest value: " + str(sorted_numbers[0]))
-print("Biggest value: " + str(sorted_numbers[len(random_numbers) - 1]))
-print("Second biggest value: " + str(sorted_numbers[len(random_numbers) - 2]))
+print("Biggest value: " + str(sorted_numbers[-1]))
+print("Second biggest value: " + str(sorted_numbers[-2]))
 
 print("Average: " + str(average))
 for number in random_numbers:
