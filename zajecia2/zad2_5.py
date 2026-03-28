@@ -1,5 +1,6 @@
 def main():
-    for i in range(1,11):
+    text = "Python"
+    for i in text:
         print(i)
 
 if __name__ == "__main__":
